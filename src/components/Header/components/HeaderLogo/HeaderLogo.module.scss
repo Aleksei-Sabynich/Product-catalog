@@ -1,0 +1,16 @@
+.header_logo {
+  .header_logo{
+    width: 100px;
+    height: 21px;
+  }
+  p {
+    font-size: 13px;
+    line-height: 14px;
+    color: #444444;
+  }
+}
+@media (max-width: 768px) {
+  .header_logo{
+    display: none;
+  }
+}

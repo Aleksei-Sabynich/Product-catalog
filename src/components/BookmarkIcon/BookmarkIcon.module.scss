@@ -1,0 +1,17 @@
+.icon {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.rotate {
+  animation: rotate360 0.4s ease-in-out;
+}
+
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

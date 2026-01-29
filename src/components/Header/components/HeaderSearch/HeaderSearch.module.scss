@@ -1,0 +1,27 @@
+.searh_input{
+   width: 299px;
+    height: 36px;
+    padding: 2px 11px;
+    border-radius: 13px;
+    border-color: #3cb950;
+}
+@media (max-width: 1350px) {
+  .searh_input{
+     width: auto;
+    }
+}
+@media (max-width: 768px) {
+  .wrapper_input{
+    z-index: 3;
+    background: linear-gradient(92.08deg, #317014 20.3%, #426d0d 48.62%, #095f07 79.4%);
+    width: 100%;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .searh_input{
+     width: 100%;
+     border: none;
+    }
+}

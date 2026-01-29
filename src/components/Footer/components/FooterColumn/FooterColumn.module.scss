@@ -1,0 +1,23 @@
+.footer_column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer_link {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .footer_column {
+    gap: 5px;
+  }
+  .footer_link {
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: 400;
+  }
+}

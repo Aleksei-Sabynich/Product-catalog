@@ -1,0 +1,45 @@
+.header_buttons {
+  display: flex;
+  align-items: center;
+  button,
+  a {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    background-color: transparent;
+    border: none;
+  }
+  p {
+    width: 90px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #444444;
+  }
+}
+.shopping{
+  position: relative;
+  span{
+    position: absolute;
+    top: -15px;
+    right: -13px;
+    width: 22px;
+    height: 22px;
+    color: #000;
+    background-color: #36d909;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 1350px) {
+  .header_buttons{
+     flex-direction: column;
+     gap: 20px;
+    }
+}
+@media (max-width: 768px) {
+  .header_buttons{
+     display: none;
+    }
+}

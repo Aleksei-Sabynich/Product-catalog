@@ -1,0 +1,1 @@
+export { ProductByIDSkeleton } from './ProductByIDSkeleton'

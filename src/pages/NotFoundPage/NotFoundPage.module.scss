@@ -1,0 +1,34 @@
+.empty_state {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  h2 {
+    font-size: 30px;
+    font-weight: 600;
+     text-align: center;
+
+  }
+  p {
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+  }
+ 
+  button:hover{
+    opacity: 0.7;
+  }
+}
+@media (max-width: 650px) {
+  .empty_state  h2{
+     font-size: 20px;
+   }
+   .empty_state  p {
+     font-size: 15px;
+     text-align: center;
+   }
+}
+

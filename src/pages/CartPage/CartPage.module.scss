@@ -1,0 +1,26 @@
+.card{
+   width: 100%;
+}
+.wrapper_card{
+   display: flex;
+   justify-content: space-between;
+   align-items: start;
+   gap: 30px;
+}
+.wrapper_product{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   flex-grow: 1;
+}
+
+
+@media (max-width: 1023px) {
+  .wrapper_card{
+   flex-direction: column;
+   gap: 20px
+   }  
+   .wrapper_product{
+      width: 100%;
+   }
+}

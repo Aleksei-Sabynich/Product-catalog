@@ -1,0 +1,26 @@
+.footer {
+  background: linear-gradient(92.08deg, #317014 20.3%, #426d0d 48.62%, #095f07 79.4%);
+  padding: 20px 20px;
+}
+.container {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+@media (max-width: 768px) {
+  .footer{
+    padding: 10px 10px 90px;
+  }
+  .container{
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 650px) {
+  .container {
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+  }
+}

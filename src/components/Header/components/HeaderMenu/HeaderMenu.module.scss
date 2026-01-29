@@ -1,0 +1,42 @@
+.header_menu {
+  background: linear-gradient(90deg, #3cb950 0%, #13dd33 100%);
+}
+.container {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.header_menuItem {
+  text-decoration: none;
+  padding: 14px 25px;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 5%;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  background-color: transparent;
+}
+.button_active{
+  color: red;
+}
+@media (max-width: 1270px) {
+  .header_menuItem{
+     padding: 14px 10px;
+     font-size: 16px;
+    }
+}
+@media (max-width: 1024px) {
+  .header_menuItem{
+     padding: 10px 0px;
+     font-size: 14px;
+    }
+}
+@media (max-width: 768px) {
+  .header_menu{
+    display: none;
+  }
+}

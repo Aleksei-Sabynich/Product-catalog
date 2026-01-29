@@ -1,0 +1,42 @@
+.cart_summary {
+  background-color: #c7c0c05b; 
+  border-radius: 20px;
+  padding: 16px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  color: #555;
+  span{
+    font-size: 18px;
+  }
+}
+
+.discount {
+  color: #ff4d4f;
+}
+
+.wallet_discount {
+  color: #8a2be2;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 12px;
+  border-top: 1px solid #000;
+  margin-bottom: 20px;
+}
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  gap:10px
+}
+@media (max-width: 1023px) {
+  .cart_summary{
+   width: 100%;
+   padding: 20px;
+   }  
+}

@@ -1,0 +1,49 @@
+.mobile_menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  gap: 8px;
+  padding: 12px;
+  background: #ffffffe6;
+  box-shadow: 0 -8px 20px #00000014;
+  animation: slideUp 0.35s ease-out;
+  z-index: 3;
+  display: none;
+}
+
+.mobile_menuItem {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  background: transparent;
+  color: #333;
+  cursor: pointer;
+ 
+}
+.button_active {
+  background: #111;
+  color: #fff;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .mobile_menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+}

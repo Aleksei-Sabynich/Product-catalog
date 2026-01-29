@@ -1,0 +1,41 @@
+.mobile_menu {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+  justify-content: space-around;
+  padding: 15px 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  display: none;
+  border: none;
+  z-index: 3;
+}
+.shopping{
+  position: relative;
+  span{
+    position: absolute;
+    top: -15px;
+    right: -13px;
+    width: 22px;
+    height: 22px;
+    color: #000;
+    background-color: #36d909;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  .mobile_menu {
+    display: flex;
+  }
+}
+.mobile_menu_button {
+  position: relative;
+  border: none;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+

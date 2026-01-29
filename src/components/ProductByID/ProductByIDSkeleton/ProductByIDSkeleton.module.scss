@@ -1,0 +1,42 @@
+@keyframes shimmer {
+  0% { background-position: -300px 0; }
+  100% { background-position: 300px 0; }
+}
+.skeleton {
+  background: linear-gradient(90deg, #e0e0e0 25%, #f5f5f5 37%, #e0e0e0 63%);
+  background-size: 300px 100%;
+  animation: shimmer 1.2s infinite linear;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(224, 224, 224, 0.5);
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+  .product_image {
+    width: 100%;
+    aspect-ratio: 1/1;
+    margin-bottom: 15px;
+     @extend .skeleton;
+  }
+  .title {
+    height: 50px;
+    @extend .skeleton;
+  }
+  .price{
+    width: 20%;
+    height: 35px;
+    margin: 5px 0;
+    @extend .skeleton;
+  }
+  .description {
+    height: 197px;
+    @extend .skeleton;
+  }
+}
+.button {
+  width: 100%;
+  height: 62px;
+  @extend .skeleton;
+}

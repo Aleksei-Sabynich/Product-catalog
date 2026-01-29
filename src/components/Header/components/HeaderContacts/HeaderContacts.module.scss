@@ -1,0 +1,46 @@
+.header_contacts {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.contactTel_item{
+  font-size: 20px;
+  line-height: 28px;
+  color: #444444;
+  margin: 0;
+}
+.contactAdress {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444;
+  }
+}
+
+@media (max-width: 1350px) {
+  .contactTel_item{
+      font-size: 16px;
+      line-height: 18px;
+    }
+}
+@media (max-width: 1024px) {
+  .header_contacts{
+    gap: 0px;
+  }
+  .contactTel_item{
+     display: none;
+    }
+}
+@media (max-width: 768px) {
+  .header_contacts{
+    display: none;
+  }
+}
